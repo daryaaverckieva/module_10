@@ -1,0 +1,54 @@
+
+.chat {
+    margin-top: 10px;
+    border: 2px solid pink;
+    width: 340px;
+    height: 340px;
+    overflow-y: auto; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+
+.message-sender {
+    align-self: flex-end; 
+    background-color: #dcf8c6; 
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+
+.message-server {
+    align-self: flex-start; 
+    background-color: #f1f0f0; 
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+
+input {
+    width: 150px;
+    border: 2px solid pink;
+    padding: 5px;
+}
+
+.btn {
+    background-color: pink;
+    border: 2px solid pink;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.btn-geo {
+    background-color: pink; 
+    border: 2px solid pink;
+    cursor: pointer;
+    padding: 5px 10px;
+   
+    margin-left: 2px; 
+}
